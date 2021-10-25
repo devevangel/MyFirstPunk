@@ -1,0 +1,102 @@
+.team {
+  width: 100%;
+  margin-top: -10px;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .team {
+    margin-top: 130px;
+  }
+}
+
+.app-links {
+  text-decoration: none;
+}
+
+.app-links:hover {
+  cursor: pointer;
+}
+
+.team-holder {
+  width: 700px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-title {
+  margin-top: 120px;
+  font-family: "Elliot Six";
+  text-align: center;
+}
+
+.team-list {
+  width: 85%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.infant-container {
+  width: 50%;
+}
+
+.jester-container {
+  width: 50%;
+}
+
+.team-img {
+  width: 7em;
+  height: auto;
+  border-radius: 50%;
+}
+
+.team-container {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-name-main {
+  margin-top: 5px;
+  font-size: 15px;
+  font-family: "Zai";
+  text-decoration: none;
+  color: black;
+}
+
+.team-name {
+  margin-top: 5px;
+  font-size: 15px;
+  font-family: "Comic Neue Bold";
+  text-decoration: none;
+  color: black;
+}
+
+.team-name:hover {
+  cursor: pointer;
+  color: rgb(48, 31, 31);
+}
+
+.team-role {
+  font-family: "Comic Neue Regular";
+  font-size: 15px;
+}
+
+@media all and (max-width: 600px) {
+  .team-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .team-container {
+    width: 100%;
+  }
+}

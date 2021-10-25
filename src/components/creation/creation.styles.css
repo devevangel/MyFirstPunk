@@ -1,0 +1,142 @@
+.creation-container {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.creation-holder {
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.process {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.spacer {
+  width: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .creation-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .process {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 170px;
+  }
+
+  .content {
+    width: 350px !important;
+  }
+
+  .spacer {
+    display: none !important;
+  }
+
+  .content-text-holder {
+    width: 65% !important;
+    font-size: 13.5px !important;
+  }
+
+  .face-image {
+    width: 80% !important;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .creation-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .spacer {
+    display: none !important;
+  }
+
+  .process {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 170px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .creation-holder {
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .process {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .creation-holder {
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .process {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.content {
+  width: 500px;
+}
+
+.face-image {
+  width: 95%;
+  padding: 12px;
+}
+
+.creation-title {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  font-family: "Elliot Six";
+  padding-bottom: 15px;
+}
+
+.creation-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.content-text-holder {
+  width: 80%;
+  line-height: 20px;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Comic Neue Regular";
+}

@@ -1,0 +1,58 @@
+.holder-container {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.holder-main {
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  background-color: #f6f6f6;
+  padding-bottom: 70px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .holder-main {
+    padding-bottom: 200px !important;
+    width: 80% !important;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .holder-main {
+    padding-bottom: 200px !important;
+    width: 65%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .holder-main {
+    padding-bottom: 200px !important;
+    width: 60% !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .holder-main {
+    padding-bottom: 200px !important;
+    width: 70% !important;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .holder-main {
+    padding-bottom: 200px !important;
+    width: 55% !important;
+  }
+}

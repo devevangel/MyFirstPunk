@@ -1,0 +1,144 @@
+.punk-container {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.punk-holder {
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.punk-gif-container {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .punk-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .punk-gif-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    order: 1;
+  }
+
+  .punk-image {
+    width: 65% !important;
+  }
+
+  .punk-content {
+    width: 100% !important;
+  }
+
+  .text-holder {
+    width: 70% !important;
+  }
+
+  .punk-content {
+    width: 350px !important;
+  }
+
+  .punk-title {
+    font-size: 25.3px !important;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .punk-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .punk-gif-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    order: 1;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .punk-holder {
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .punk-gif-container {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .punk-holder {
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .punk-gif-container {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.punk-content {
+  width: 500px;
+}
+
+.punk-spacer {
+  width: 10px;
+  padding: 5px;
+}
+
+.punk-image {
+  width: 95%;
+  padding: 12px;
+}
+
+.punk-title {
+  font-size: 30px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  font-family: "Elliot Six";
+}
+
+.punk-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.text-holder {
+  width: 80%;
+  line-height: 20px;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Comic Neue Regular";
+}
+
+.punk-sub-text {
+  font-size: 12px;
+}

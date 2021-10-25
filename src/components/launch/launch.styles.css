@@ -1,0 +1,55 @@
+.launch-contianer {
+  text-align: center;
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.countdown {
+  font-size: 20px;
+  font-family: "Comic Neue Regular";
+}
+
+.countdown-card {
+  margin-top: 10px;
+  width: 350px;
+  height: 75px;
+  color: rgb(28, 125, 253);
+  border-radius: 10px;
+  box-shadow: 0 8px 8px -4px lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: bold;
+  font-family: "Comic Neue Bold";
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sold {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.price {
+  font-size: 25px;
+}
+
+.number {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.sub-text {
+  font-size: 10px;
+  color: black;
+  font-family: "Comic Neue Regular";
+}

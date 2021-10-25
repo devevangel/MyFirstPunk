@@ -1,0 +1,71 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.app-links {
+  text-decoration: none;
+  color: black;
+}
+
+.holder {
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    width: 100%;
+  }
+  .connect-button {
+    width: 15em !important;
+  }
+  .icon-header {
+    font-size: 5em !important;
+  }
+}
+
+.logo-img {
+  margin-top: 35px;
+  width: 100%;
+}
+
+.navbar-link-holder {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.items {
+  float: left;
+  margin-left: 10px;
+}
+
+.icon-header {
+  font-size: 2.7em;
+}
+
+.connect-button {
+  color: #fff;
+  background-color: #808080;
+  width: 10em;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  font-weight: 600;
+}

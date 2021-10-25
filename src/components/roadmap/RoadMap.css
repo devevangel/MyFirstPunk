@@ -1,0 +1,95 @@
+.roadmap-container {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.roadmap-holder {
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.roadmap-content {
+  width: 500px;
+}
+
+.roadmap-title {
+  font-size: 30px;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  font-family: "Elliot Six";
+  margin-bottom: 25px;
+}
+
+.maps {
+  display: flex;
+}
+
+.point {
+  width: 90%;
+  line-height: 15px;
+  font-size: 15px;
+  font-family: "Comic Neue Regular";
+}
+
+@media only screen and (max-width: 600px) {
+  .point {
+    width: 50% !important;
+  }
+  .head {
+    width: 30% !important;
+    margin-left: 20px;
+  }
+  .roadmap-content {
+    width: 350px !important;
+  }
+}
+
+.head {
+  width: 30%;
+  font-family: "Elliot Six";
+}
+
+.light-green {
+  color: green;
+}
+
+.light-orange {
+  color: orangered;
+}
+
+.light-blue {
+  color: blue;
+}
+
+.light-purple {
+  color: purple;
+}
+
+.point-title {
+  font-weight: bolder;
+  font-size: 14px;
+  font-family: "Comic Neue Bold";
+}
+
+.spacing {
+  height: 5px;
+}
+
+.hunger-text {
+  color: blue;
+  text-decoration: none;
+}
+
+.hunger-text:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* .progress-container {
+  margin-top: 5px;
+} */

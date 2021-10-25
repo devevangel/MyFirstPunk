@@ -1,0 +1,69 @@
+.compare-container {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid grey;
+  box-shadow: 0 8px 8px -4px lightblue;
+}
+
+.submit-button {
+  border: none;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  padding: 8px;
+  width: 50px;
+  align-self: center;
+}
+
+.submit-button:hover {
+  cursor: pointer;
+  background-color: rgb(32, 32, 218);
+}
+
+.list {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.list-image {
+  width: 280px;
+  height: 250px;
+  image-rendering: pixelated;
+  margin-left: 5px;
+}
+
+.image-cloud {
+  width: 280px;
+  height: 250px;
+  image-rendering: pixelated;
+  margin-left: 5px;
+  background-color: #638598;
+}
+
+.image-side {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.number-text {
+  text-align: center;
+}
+
+.list-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

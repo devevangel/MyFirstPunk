@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Elliot Six";
+  src: local("Elliot Six"), url(./fonts/ElliotSix.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Zai";
+  src: local("Zai"), url(./fonts/zai_HongKongGraffiti.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Comic Neue Bold";
+  src: local("Comic Neue Bold"),
+    url(./fonts/ComicNeue-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Comic Neue Regular";
+  src: local("Comic Neue Regular"),
+    url(./fonts/ComicNeue-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "I Hate Comic Sans";
+  src: local("I Hate Comic Sans"),
+    url(./fonts/IHateComicSans.ttf) format("truetype");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
